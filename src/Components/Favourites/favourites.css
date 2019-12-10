@@ -1,0 +1,186 @@
+.favouriteBox{
+    margin-left: 1%;
+    width: 25vw;
+    height: 40vw;
+    box-shadow: 0.3vw 0.3vw 0.3vw 0.1vw #186839;
+    background-color: #21a056;
+}
+
+.favTitle{
+    text-align: center;
+    font-family: Solway;
+}
+
+.favPic{
+    width: 6vw;
+    height:5vw;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.favPic:hover{
+    width: 5.5vw;
+    height:4.5vw;
+    margin: 0.2vw;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.FavItem {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 5vw;
+    border: 0.13vw solid black;
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+}
+
+.FavButtons{
+    position: absolute;
+    padding-left: 15vw;
+}
+
+.fa-edit {
+    position: absolute;
+    font-size: 2vw;
+    margin-top: 1.3vw;
+    color: #0652DD;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.fa-edit:hover{
+    color: rgb(7, 59, 156);
+    transition: 0.2s;
+}
+
+.fa-trash-alt {
+    position: absolute;
+    font-size: 2vw;
+    margin-top: 1.3vw;
+    margin-left: 4vw;
+    color: #d11a2a;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.fa-trash-alt:hover {
+    color: #8a121c;
+    transition: 0.2s;
+}
+
+.DescBox{
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+    font-size: 0.8vw;
+    width: 35%;
+    font-family: Open Sans;
+    font-weight: bold;
+}
+
+.editDescBox {
+    width : 80%;
+    height: 4vw;
+    margin-top: 0.3vw;
+    margin-left: 0.2vw;
+    background-color: #66d695;
+    font-family: Open Sans;
+    font-size: 0.73vw;
+    font-weight: bold;
+}
+
+.saveNewDescBtn {
+    position: absolute;
+    margin-top: 2vw;
+    margin-left: 0.3vw;
+    box-shadow: 0.3vw 0.3vw 0.3vw #186839;
+}
+
+
+
+.editModal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  
+  .editModal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 1vw;
+    border: 1px solid #888;
+    width: 25%; 
+    height: 27%;
+    background-color: #21a056;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+
+  .PicPopup {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  
+  .PicPopup-content {
+    position: absolute;
+    margin-left: 15% ; 
+    padding: 0.5%;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  .closePic {
+    position: absolute;
+    color: #aaa;
+    font-size: 3vw;
+    font-weight: bold;
+    z-index: 2; 
+  }
+  
+  .closePic:hover,
+  .closePic:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .PicPopupImg {
+    position: absolute;
+    margin-top: 1.5vw;
+    margin-right: 30vw;
+  }

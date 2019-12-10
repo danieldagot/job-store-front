@@ -1,0 +1,35 @@
+body{
+  background-color: #2ecc71;
+}
+
+.App {
+  /* text-align: center; */
+}
+
+.searchBar {
+  width: 65%;
+  height: 1.5vw;
+  margin-top: 1vw;
+  margin-left: 1vw;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 1.2vw;
+}
+
+.searchButton{
+  width: 5.2vw;
+  height: 2vw;
+  margin-top: 1vw;
+  margin-left: 0.5vw;
+  box-shadow: 0.3vw 0.3vw 0.3vw #186839;
+  cursor: pointer;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 1.2vw;
+}
+
+.picBoxes {
+  display: flex;
+  flex-direction: row;
+  background-color: #2ecc71;
+}
